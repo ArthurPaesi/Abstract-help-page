@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 :root{
@@ -171,6 +172,51 @@ section.options > .w50{
 .w50 > .options-single > .img-single{
     float: left;
     margin-right: 19px;
+    clear: both;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+footer > .footer-wrapper{
+    margin: 10px 90px;
+    display: flex;
+    flex-direction: row ;
+}
+
+footer > .footer-wrapper > .footer-column{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+}
+
+footer > .footer-wrapper > .footer-column > h2{
+    color: var(--white);
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+footer > .footer-wrapper > .footer-column > a{
+    color: var(--white);
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+
+footer > .footer-wrapper > .footer-column > .contact > h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+footer > .footer-wrapper > .footer-column > .contact{
+    color: var(--white);
+    font-size: 14px;
+
+    margin-top: 30px;
 }
 
 /* responsive */
